@@ -96,6 +96,8 @@ curl -X GET http://localhost:8080/my-bin/test.txt
 ```
 "Hello world!" should be printed in console.
 
+If the above doesn't work, you may want to add `--verbose`` to the above commands to diagnose issues, and you can also pass credentials with `--user username:password`.
+
 To dive in deeper into Artipie configuration, features, explore repositories and storages settings,
 please, address our [Wiki](https://github.com/artipie/artipie/wiki).
 
